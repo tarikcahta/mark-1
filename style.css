@@ -38,7 +38,7 @@ button {
 
 img {
     max-width: 300px;
-    height: 300px;
+    max-height: 200px;
     border-radius: 25px 40px;
 }
 
