@@ -196,3 +196,7 @@ footer {
         font-size: 9px;
     }
 }
+
+body {
+    margin: 0;
+}

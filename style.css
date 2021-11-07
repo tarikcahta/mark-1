@@ -38,7 +38,6 @@ button {
 
 img {
     max-width: 300px;
-    /* max-width: 75%; */
     max-height: 270px;
     border-radius: 25px 30px;
 }
@@ -63,7 +62,7 @@ h3 {
 }
 
 .colosseum {
-    max-width: 50%;
+    max-width: 320px;
     height: auto;
     margin-bottom: 10px;
     border-radius: 0;
@@ -134,4 +133,8 @@ footer {
 .blue{
     background-color: #aa0000;
     color: goldenrod;
+}
+
+body {
+    margin: 0;
 }
