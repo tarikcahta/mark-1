@@ -2,6 +2,13 @@
     width: device-width;
     zoom: 1.0;
 }
+
+@media screen and (max-width: 520px){
+    .pics, .header
+       {
+        font-size: 10px;
+    }
+}
 header {
     display: flex;
     justify-content: space-around;
@@ -41,9 +48,11 @@ button {
 }
 
 img {
-    max-width: 300px;
-    max-height: 200px;
-    border-radius: 25px 40px;
+    /* max-width: 300px; */
+    max-width: 75%;
+    max-height: auto;
+    border-radius: 25px 30px;
+    flex-shrink: 1;
 }
 
 .pics {
@@ -52,6 +61,29 @@ img {
     justify-content: center;
     background-color: #581644;
     color: goldenrod;
+}
+
+@media screen and (max-width: 520px) {
+    .photos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .photo_1, .photo_2 {
+        min-width: 100px;
+        max-width: 130px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .photo_3, .photo_4 {
+        min-width: 90px;
+        max-width: 100px;
+        font-size: 11px;
+    }
 }
 
 h3 {
@@ -65,10 +97,17 @@ h3 {
 }
 
 .colosseum {
-    max-width: 300px;
+    max-width: 50%;
     height: auto;
     margin-bottom: 10px;
     border-radius: 0;
+}
+
+@media  screen and (max-width: 520px) {
+   .colosseum {
+       max-width: 32%;
+       height: auto;
+   } 
 }
 
 .photo_1, .photo_2,
@@ -84,8 +123,14 @@ h3 {
     justify-content: center;
     align-items: center;
     min-height: 300px;
-    background-color: #aa0000;
+    background-color: rgb(88, 22, 68);
     color: white;
+}
+
+.quote {
+    border-radius: 44px;
+    padding: 15px;
+    border: solid white;
 }
 
 footer {
@@ -100,7 +145,7 @@ footer {
 }
 
 .bottom {
-    background-color: #581644;
+    background-color: #aa0000;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -119,9 +164,30 @@ footer {
     column-gap: 40px;
     padding: 20px;
     min-width: 600px;
+    flex-shrink: 2;
+}
+@media screen and (max-width: 520px){
+    .izjava, .lowerparts {
+        min-width: fit-content;
+        font-size: 12px;
+    }
 }
 
 .blue{
     background-color: #aa0000;
     color: goldenrod;
+}
+
+@media screen and (max-width: 520px) {
+    button {
+        max-width: fit-content;
+        font-size: 7px;
+        margin-bottom: 4px;
+    }
+}
+
+@media screen and (max-width: 520px){
+    a {
+        font-size: 9px;
+    }
 }
