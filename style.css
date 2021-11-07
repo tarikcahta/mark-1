@@ -2,6 +2,11 @@
     width: device-width;
     zoom: 1.0;
 }
+
+body {
+    margin: 0;
+}
+
 header {
     display: flex;
     justify-content: space-around;
