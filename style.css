@@ -1,14 +1,3 @@
-/* @viewport {
-    width: device-width;
-    zoom: 1.0;
-}
-
-@media screen and (max-width: 520px){
-    .pics, .header
-       {
-        font-size: 10px;
-    }
-} */
 header {
     display: flex;
     justify-content: space-around;
@@ -48,8 +37,8 @@ button {
 }
 
 img {
-    /* max-width: 300px; */
-    max-width: 75%;
+    max-width: 300px;
+    /* max-width: 75%; */
     max-height: auto;
     border-radius: 25px 30px;
     flex-shrink: 1;
@@ -63,28 +52,6 @@ img {
     color: goldenrod;
 }
 
-/* @media screen and (max-width: 520px) {
-    .photos {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-} */
-
-/* @media screen and (max-width: 520px) {
-    .photo_1, .photo_2 {
-        min-width: 120px;
-        max-width: 140px;
-    }
-}
-
-@media screen and (max-width: 520px) {
-    .photo_3, .photo_4 {
-        min-width: 100px;
-        max-width: 110px;
-        font-size: 11px;
-    }
-} */
 
 h3 {
     align-self: center;
@@ -103,13 +70,6 @@ h3 {
     border-radius: 0;
 }
 
-/* @media  screen and (max-width: 520px) {
-   .colosseum {
-       max-width: 32%;
-       height: auto;
-   } 
-} */
-
 .photo_1, .photo_2,
 .photo_3, .photo_4 {
     display: flex;
@@ -127,7 +87,7 @@ h3 {
     justify-content: center;
     align-items: center;
     min-height: 300px;
-    background-color: rgb(88, 22, 68);
+    background-color: #581644;
     color: white;
 }
 
@@ -170,28 +130,9 @@ footer {
     min-width: 600px;
     flex-shrink: 2;
 }
-/* @media screen and (max-width: 520px){
-    .izjava, .lowerparts {
-        min-width: fit-content;
-        font-size: 12px;
-    }
-} */
+
 
 .blue{
     background-color: #aa0000;
     color: goldenrod;
 }
-
-/* @media screen and (max-width: 520px) {
-    button {
-        max-width: fit-content;
-        font-size: 7px;
-        margin-bottom: 4px;
-    }
-}
-
-@media screen and (max-width: 520px){
-    a {
-        font-size: 9px;
-    }
-} */
