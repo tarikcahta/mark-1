@@ -1,4 +1,4 @@
-/* @viewport {
+@viewport {
     width: device-width;
     zoom: 1.0;
 }
@@ -8,7 +8,8 @@
        {
         font-size: 10px;
     }
-} */
+}
+
 header {
     display: flex;
     justify-content: space-around;
@@ -63,15 +64,15 @@ img {
     color: goldenrod;
 }
 
-/* @media screen and (max-width: 520px) {
+@media screen and (max-width: 520px) {
     .photos {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
-} */
+}
 
-/* @media screen and (max-width: 520px) {
+@media screen and (max-width: 520px) {
     .photo_1, .photo_2 {
         min-width: 120px;
         max-width: 140px;
@@ -84,7 +85,7 @@ img {
         max-width: 110px;
         font-size: 11px;
     }
-} */
+}
 
 h3 {
     align-self: center;
@@ -103,12 +104,12 @@ h3 {
     border-radius: 0;
 }
 
-/* @media  screen and (max-width: 520px) {
+@media  screen and (max-width: 520px) {
    .colosseum {
        max-width: 32%;
        height: auto;
    } 
-} */
+}
 
 .photo_1, .photo_2,
 .photo_3, .photo_4 {
@@ -170,19 +171,19 @@ footer {
     min-width: 600px;
     flex-shrink: 2;
 }
-/* @media screen and (max-width: 520px){
+@media screen and (max-width: 520px){
     .izjava, .lowerparts {
         min-width: fit-content;
         font-size: 12px;
     }
-} */
+}
 
 .blue{
     background-color: #aa0000;
     color: goldenrod;
 }
 
-/* @media screen and (max-width: 520px) {
+@media screen and (max-width: 520px) {
     button {
         max-width: fit-content;
         font-size: 7px;
@@ -194,4 +195,4 @@ footer {
     a {
         font-size: 9px;
     }
-} */
+}
