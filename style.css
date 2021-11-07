@@ -1,3 +1,7 @@
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
 header {
     display: flex;
     justify-content: space-around;
@@ -38,8 +42,8 @@ button {
 
 img {
     max-width: 300px;
-    max-height: 270px;
-    border-radius: 25px 30px;
+    max-height: 200px;
+    border-radius: 25px 40px;
 }
 
 .pics {
@@ -49,7 +53,6 @@ img {
     background-color: #581644;
     color: goldenrod;
 }
-
 
 h3 {
     align-self: center;
@@ -62,7 +65,7 @@ h3 {
 }
 
 .colosseum {
-    max-width: 320px;
+    max-width: 300px;
     height: auto;
     margin-bottom: 10px;
     border-radius: 0;
@@ -76,10 +79,6 @@ h3 {
     align-items: center;
 }
 
-.photo_1 {
-    margin-left: 10px;
-}
-
 .lowerparts {
     display: flex;
     justify-content: center;
@@ -87,12 +86,6 @@ h3 {
     min-height: 300px;
     background-color: #581644;
     color: white;
-}
-
-.quote {
-    border-radius: 44px;
-    padding: 15px;
-    border: solid white;
 }
 
 footer {
@@ -107,7 +100,7 @@ footer {
 }
 
 .bottom {
-    background-color: #aa0000;
+    background-color: #581644;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -126,17 +119,9 @@ footer {
     column-gap: 40px;
     padding: 20px;
     min-width: 600px;
-    flex-shrink: 0;
 }
-
 
 .blue{
     background-color: #aa0000;
     color: goldenrod;
 }
-
-body {
-    margin: 0;
-}
-
-/* going through breakdown */
