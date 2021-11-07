@@ -126,7 +126,7 @@ footer {
     column-gap: 40px;
     padding: 20px;
     min-width: 600px;
-    flex-shrink: 2;
+    flex-shrink: 0;
 }
 
 
@@ -138,3 +138,5 @@ footer {
 body {
     margin: 0;
 }
+
+/* going through breakdown */
